@@ -36,10 +36,10 @@ if (keyboardEventListener != null) {
 @Override
 public void onKeyboardStatusChange(Boolean isOpen) {
     if (isOpen) {
-        Log.e("AK961 >> ", "keyboard show");
+        Log.e(TAG, "keyboard show");
         Toast.makeText(this, "keyboard show", Toast.LENGTH_SHORT).show();
     } else {
-        Log.e("Ak961 >> ", "keyboard hide");
+        Log.e(TAG, "keyboard hide");
         Toast.makeText(this, "keyboard hide", Toast.LENGTH_SHORT).show();
     }
 }
